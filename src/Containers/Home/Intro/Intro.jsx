@@ -4,9 +4,6 @@ import Button from "../../../Components/button";
 const Intro = () => {
   return (
     <div className={classes.intro}>
-        {/* <img className={classes.introImg} src={
-            introImg
-        }/> */}
       <h1 className={classes.heading}>Let Your Home Be Unique</h1>
       <p className={classes.text}>
         There are many variations of the passages of lorem Ipsum
