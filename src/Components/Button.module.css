@@ -1,0 +1,14 @@
+.button {
+  border: none;
+  background-color: #292f36;
+  color: #fff;
+  padding: 1.625rem 3rem;
+  border-radius: 18px;
+  font-size: 1.125rem;
+  display: flex;
+  align-items: center;
+}
+
+.icon { 
+    margin-left:0.5rem
+}
