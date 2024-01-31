@@ -8,6 +8,7 @@ html {
   min-height: 100vh;
   width: 100%;
   font-family: "Jost";
+  color: #292f36;
 }
 
 body {
@@ -19,7 +20,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-
 }
 
 button {
@@ -27,7 +27,7 @@ button {
   cursor: pointer;
 }
 
-#root { 
+#root {
   position: relative;
   display: flex;
   flex-direction: column;

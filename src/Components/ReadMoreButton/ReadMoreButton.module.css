@@ -1,0 +1,15 @@
+.readMoreBtn {
+  border: none;
+  background-color: transparent;
+  color: #292f36;
+  padding: 1.625rem 3rem;
+  border-radius: 18px;
+  font-size: 1.125rem;
+  display: flex;
+  align-items: center;
+  font-weight:700
+}
+
+.icon {
+  margin-left: 0.5rem;
+}
