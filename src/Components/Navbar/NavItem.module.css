@@ -1,0 +1,9 @@
+.navItem {
+  cursor: pointer;
+  margin: 0 1rem;
+  font-size: 1.25rem;
+}
+
+.navItem:last-of-type {
+  margin-right: 0;
+}

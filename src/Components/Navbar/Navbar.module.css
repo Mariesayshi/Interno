@@ -1,0 +1,28 @@
+.navItems {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.logoHeading {
+  font-family: "DM Serif Display";
+  font-size: 2.5rem;
+  margin: 1rem 0 ;
+}
+
+.logoIcon {
+  margin-right: 0.7rem;
+}
+.logo {
+  display: flex;
+  cursor: pointer;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 75rem;
+  margin: 2rem auto;
+}

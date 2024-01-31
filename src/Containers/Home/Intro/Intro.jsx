@@ -1,6 +1,5 @@
 import classes from "./intro.module.css";
-import Button from "../../../Components/button";
-// import introImg from "../../../assets/intro.jpg"
+import Button from "../../../Components/Button/Button";
 const Intro = () => {
   return (
     <div className={classes.intro}>

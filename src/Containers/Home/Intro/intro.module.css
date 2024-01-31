@@ -10,8 +10,8 @@
 }
 
 .intro {
-  width: 100%;
-  height: 65.125rem;
+  width:calc(100% - 4rem);
+  height: 60rem;
   padding: 20rem;
   display: flex;
   flex-direction: column;
@@ -20,7 +20,11 @@
   background-image: url("../../../assets/intro.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 50%;
+  background-position: 50% 50%;
   border-radius: 0 0 0 20%; 
   overflow: hidden;
+  position: relative;
+  left: 2rem;
 }
+
+

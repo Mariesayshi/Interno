@@ -1,5 +1,5 @@
 import classes from "./Button.module.css";
-import arrowIcon from "../assets/arrow.svg"
+import arrowIcon from "../../assets/arrow.svg"
 const Button = ({ text }) => {
   return (
     <button className={classes.button}>
