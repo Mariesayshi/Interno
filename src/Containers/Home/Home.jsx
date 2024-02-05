@@ -2,6 +2,7 @@ import Intro from "./Intro/Intro";
 import classes from "./Home.module.css";
 import ServiceLink from "../../Components/ServiceLink/ServiceLink";
 import Contact from "./Contact/Contact";
+import Reviews from "../Home/Reviews/Reviews";
 const Home = () => {
   return (
     <>
@@ -23,7 +24,8 @@ const Home = () => {
           available, majority."
         />
       </div>
-      <Contact/>
+      <Contact />
+      <Reviews />
     </>
   );
 };

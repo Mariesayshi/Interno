@@ -1,0 +1,20 @@
+.reviewsSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f4f0ec;
+  background-color: magenta;
+  border-radius: 20px;
+  padding: 2rem;
+}
+
+.reviews {
+  display: flex;
+}
+
+.heading {
+  font-size: 3.125rem;
+  max-width: 34.1875rem;
+  text-align: center;
+  font-family: "DM Serif Display";
+}
