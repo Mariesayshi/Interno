@@ -1,7 +1,42 @@
 .review {
   padding: 1rem;
-  /* background-color: white; */
+  background-color: white;
+  max-width: 370px;
+  border-radius: 20px;
+  padding: 3rem 2.5rem;
+  display: flex;
+  flex-direction: column;
 
 }
 
+.headingAndPicture { 
+  display: flex;
+align-items: center;
 
+}
+
+.reviewerImg { 
+  border-radius: 50%;
+  width: 5rem;
+  height: 5rem;
+  margin-right: 1rem;
+}
+
+.nameAndLocation { 
+  display: flex;
+  flex-direction: column;
+}
+
+.name { 
+  font-size: 25px;
+  font-family: "DM Serif Display";
+}
+
+.location { 
+  font-size: 22px;
+}
+
+.reviewText { 
+  max-width: 296px;
+  font-size: 22px;
+}

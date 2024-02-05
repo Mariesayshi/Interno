@@ -10,28 +10,29 @@ const Reviews = () => {
       <h1 className={classes.heading}>What the People Thinks About Us</h1>
       <div className={classes.reviews}>
         <Review
-          name="Nattasha Mith"
-          location="Sydnay, USA"
+          name="Maria Diallo"
+          location="Brussels, Belgium"
           imgUrl={rayImg}
           reviewText="Lorem Ipsum is simply dummy 
         text of the typesetting industry. 
         Ipsum has been."
         />
         <Review
-          name="Nattasha Mith"
-          location="Sydnay, USA"
+          name="Raymont Smith"
+          location="Sydnay, Australia"
           imgUrl={bennyImg}
           reviewText="Lorem Ipsum is simply dummy 
-        text of the typesetting industry. 
-        Ipsum has been."
+          text of the typesetting industry. 
+          Ipsum has been scrambled it 
+          to make a type book."
         />
         <Review
-          name="Nattasha Mith"
-          location="Sydnay, USA"
+          name="Natasha Barker"
+          location="New York, USA"
           imgUrl={natashaImg}
           reviewText="Lorem Ipsum is simply dummy 
-        text of the typesetting industry. 
-        Ipsum has been."
+          text of the typesetting industry. 
+          Ipsum has been scrambled."
         />
       </div>
     </div>
