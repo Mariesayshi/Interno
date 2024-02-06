@@ -1,11 +1,17 @@
 import classes from "./Button.module.css";
-import arrowIcon from "../../assets/arrow.svg"
+import ArrowIcon from "../../assets/arrow.svg?react";
 
-const Button = ({ text }) => {
+const Button = ({ text, backgroundColor, color, arrowColor }) => {
   return (
-    <button className={classes.button}>
+    <button
+      style={{
+        backgroundColor: backgroundColor ?? "#292f36",
+        color: color ?? "white",
+      }}
+      className={classes.button}
+    >
       {text}
-      <img className={classes.icon}src={arrowIcon} />
+      <ArrowIcon stroke={arrowColor ?? "#CDA274"} className={classes.icon} />
     </button>
   );
 };

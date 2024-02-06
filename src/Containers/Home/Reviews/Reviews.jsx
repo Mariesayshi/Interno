@@ -18,8 +18,8 @@ const Reviews = () => {
         Ipsum has been."
         />
         <Review
-          name="Raymont Smith"
-          location="Sydnay, Australia"
+          name="Raymond Smith"
+          location="Sydney, Australia"
           imgUrl={bennyImg}
           reviewText="Lorem Ipsum is simply dummy 
           text of the typesetting industry. 

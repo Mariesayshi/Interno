@@ -1,0 +1,26 @@
+.heading {
+  font-size: 3.125rem;
+  font-family: "DM Serif Display";
+  margin: 1rem 0;
+}
+
+.OurProjectsSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 75rem;
+}
+
+.subheading {
+  max-width: 46.0625rem;
+  text-align: center;
+  font-size: 1.375rem;
+  margin: 0.5rem 0;
+}
+
+.projectsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 3rem 0;
+}

@@ -1,0 +1,56 @@
+.project {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0;
+}
+
+.imgContainer {
+  width: 32rem;
+  height: 32rem;
+  overflow: hidden;
+  background-position: 50% 50%;
+}
+
+.project:first-of-type .imgContainer {
+  border-radius: 0 20% 0 0;
+}
+.project:nth-of-type(2) .imgContainer {
+  border-radius: 20% 0 0 0;
+}
+.project:nth-of-type(3) .imgContainer {
+  border-radius: 0 0 20% 0;
+}
+.project:nth-of-type(4) .imgContainer {
+  border-radius: 0 0 0 20%;
+}
+
+.heading {
+  margin: 0.5rem 0;
+  font-size: 1.5625rem;
+  font-family: "DM Sans Serif";
+}
+
+.category {
+  font-size: 1.375rem;
+  font-family: "Jost";
+}
+
+.projectBtn {
+  width: 4.375rem;
+  height: 4.375rem;
+  border-radius: 50%;
+  border: none;
+
+  background-color: #f4f0ec;
+}
+
+.headingAndButton {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+
+.projectBtnIcon {
+  width: 0.5rem;
+}
