@@ -1,4 +1,4 @@
-import logoImg from "../../assets/logo.svg";
+import logoImg from "../../assets/GeneralIcons/logo.svg";
 
 import classes from "./Logo.module.css";
 const Logo = () => {

@@ -1,0 +1,10 @@
+.container {
+  background-color: #f4f0ec;
+  width: 100%;
+  padding: 2rem;
+  margin: 5rem 0;
+}
+
+.content {
+  max-width: 75rem;
+}

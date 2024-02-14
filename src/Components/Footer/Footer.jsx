@@ -1,9 +1,9 @@
 import Logo from "../Logo/Logo";
 import classes from "./Footer.module.css";
-import FacebookIcon from "../../assets/facebook.svg?react";
-import TwitterIcon from "../../assets/twitter.svg?react";
-import LinkedInIcon from "../../assets/linkedIn.svg?react";
-import InstagramIcon from "../../assets/Instagram.svg?react";
+import FacebookIcon from "../../assets/Socials/facebook.svg?react";
+import TwitterIcon from "../../assets/Socials/twitter.svg?react";
+import LinkedInIcon from "../../assets/Socials/linkedIn.svg?react";
+import InstagramIcon from "../../assets/Socials/Instagram.svg?react";
 
 const Footer = () => {
   return (

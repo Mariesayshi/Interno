@@ -1,5 +1,5 @@
 import classes from "./Button.module.css";
-import ArrowIcon from "../../assets/arrow.svg?react";
+import ArrowIcon from "../../assets/GeneralIcons/arrow.svg?react";
 
 const Button = ({ text, backgroundColor, color, arrowColor }) => {
   return (
