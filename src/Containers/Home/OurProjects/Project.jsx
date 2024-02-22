@@ -1,5 +1,5 @@
 import classes from "./Project.module.css";
-import arrow from "../../../assets/arrow-small.svg";
+import arrow from "../../../assets/GeneralIcons/arrow-small.svg";
 const Project = ({ imgSrc, heading, category }) => {
   return (
     <div className={classes.project}>

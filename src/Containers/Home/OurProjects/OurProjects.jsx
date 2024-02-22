@@ -1,8 +1,8 @@
 import classes from "./OurProjects.module.css";
-import kitchenImg from "../../../assets/kitchen.png";
-import hallwayImg from "../../../assets/hallway.png";
-import workspaceImg from "../../../assets/workspace.png";
-import livingRoomImg from "../../../assets/livingRoom.png";
+import kitchenImg from "../../../assets/HomePage/kitchen.png";
+import hallwayImg from "../../../assets/HomePage/hallway.png";
+import workspaceImg from "../../../assets/HomePage/workspace.png";
+import livingRoomImg from "../../../assets/HomePage/livingRoom.png";
 import Project from "./Project";
 const OurProjects = () => {
   return (

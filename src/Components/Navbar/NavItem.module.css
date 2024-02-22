@@ -4,6 +4,7 @@
   font-size: 1.25rem;
 }
 
-.navItem:last-of-type {
+/* TODO: NOT WORKING */
+/* .navItem:last-child {
   margin-right: 0;
-}
+} */

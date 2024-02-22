@@ -1,6 +1,6 @@
 import classes from "./Contact.module.css";
 import Button from "../../../Components/Button/Button";
-import callIcon from "../../../assets/call.svg";
+import callIcon from "../../../assets/GeneralIcons/call.svg";
 const Contact = () => {
   return (
     <div className={classes.contact}>

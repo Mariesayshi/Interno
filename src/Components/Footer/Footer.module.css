@@ -7,6 +7,11 @@
   margin-top: 5rem;
 }
 
+.footer a {
+  text-decoration: none;
+  color: #292f36;
+}
+
 .heading {
   font-family: "DM Sans Serif";
   font-size: 25px;

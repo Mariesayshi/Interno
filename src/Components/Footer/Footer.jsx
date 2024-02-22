@@ -4,6 +4,7 @@ import FacebookIcon from "../../assets/Socials/facebook.svg?react";
 import TwitterIcon from "../../assets/Socials/twitter.svg?react";
 import LinkedInIcon from "../../assets/Socials/linkedIn.svg?react";
 import InstagramIcon from "../../assets/Socials/Instagram.svg?react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -27,7 +28,9 @@ const Footer = () => {
             <h3 className={classes.heading}>Pages</h3>
             <ul>
               <li>Our Projects</li>
-              <li>About Us</li>
+              <Link to="/Interno/about">
+                <li>About Us</li>
+              </Link>
               <li>Contact Us</li>
               <li>Pricing</li>
             </ul>

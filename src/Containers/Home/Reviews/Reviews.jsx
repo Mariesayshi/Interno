@@ -1,8 +1,8 @@
 import classes from "./Reviews.module.css";
 import Review from "./Review";
-import rayImg from "../../../assets/Ray.jpg";
-import bennyImg from "../../../assets/benny.jpg";
-import natashaImg from "../../../assets/natasha.jpg";
+import rayImg from "../../../assets/Reviewers/Ray.jpg";
+import bennyImg from "../../../assets/Reviewers/benny.jpg";
+import natashaImg from "../../../assets/Reviewers/natasha.jpg";
 
 const Reviews = () => {
   return (

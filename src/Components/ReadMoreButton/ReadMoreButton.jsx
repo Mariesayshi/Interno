@@ -1,4 +1,4 @@
-import arrowIcon from "../../assets/arrow.svg";
+import arrowIcon from "../../assets/GeneralIcons/arrow.svg";
 import classes from "./ReadMoreButton.module.css";
 
 const ReadMoreButton = () => {
