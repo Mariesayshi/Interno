@@ -29,12 +29,7 @@
   max-width: 24.5625rem;
 }
 
-.socials {
-  display: flex;
-  justify-content: space-between;
-  max-width: 14.0625rem;
-  align-items: center;
-}
+
 
 .footerContent {
   display: flex;

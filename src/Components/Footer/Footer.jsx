@@ -1,9 +1,6 @@
 import Logo from "../Logo/Logo";
 import classes from "./Footer.module.css";
-import FacebookIcon from "../../assets/Socials/facebook.svg?react";
-import TwitterIcon from "../../assets/Socials/twitter.svg?react";
-import LinkedInIcon from "../../assets/Socials/linkedIn.svg?react";
-import InstagramIcon from "../../assets/Socials/Instagram.svg?react";
+import Socials from "../Socials/Socials";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -16,12 +13,7 @@ const Footer = () => {
             It is a long established fact that a reader will be distracted
             lookings.
           </p>
-          <div className={classes.socials}>
-            <FacebookIcon />
-            <TwitterIcon />
-            <LinkedInIcon />
-            <InstagramIcon />
-          </div>
+          <Socials />
         </div>
         <div className={classes.navBlock}>
           <div className={classes.pages}>
