@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://mariesayshi.github.io/Interno/",
+  "homepage": "https://mariesayshi.github.io/Interno/#/Interno/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
