@@ -12,8 +12,9 @@ function App() {
       <BackgroundGrid />
       <Navbar />
       <Routes>
-        <Route path="/Interno" element={<Home />} />
-        <Route path="/Interno/about" element={<AboutUs />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<AboutUs />} />
+        {/* <Route path="/*" element={<Navigate to="/" />} /> */}
       </Routes>
       <Footer />
     </>

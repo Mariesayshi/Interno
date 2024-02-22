@@ -6,6 +6,7 @@ import whatWeDoImg from "../../assets/AboutUs/whatWeDo.jpg";
 import endResult from "../../assets/AboutUs/endResult.jpg";
 import OurProfessionals from "./OurProfessionals/OurProfessionals";
 
+import MailForm from "./MailForm/MailForm";
 const AboutUs = () => {
   return (
     <>
@@ -37,7 +38,8 @@ const AboutUs = () => {
         imgSrc={endResult}
         imgReverse={true}
       />
-      <OurProfessionals/>
+      <OurProfessionals />
+      <MailForm/>
     </>
   );
 };

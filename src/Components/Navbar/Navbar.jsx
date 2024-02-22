@@ -8,12 +8,12 @@ const Navbar = () => {
     <nav className={classes.navbar}>
       <Logo />
       <ul className={classes.navItems}>
-        <Link to="/Interno/">
+        <Link to="/">
           <NavItem heading="Home" />
         </Link>
         <NavItem heading="Services" />
         <NavItem heading="Our Projects" />
-        <Link to="/Interno/about">
+        <Link to="/about">
           <NavItem heading="About Us" />
         </Link>
         <NavItem heading="Contact" />
